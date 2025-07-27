@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
 
                 NavHost(
                     navController = navController,
-                    startDestination = "profile"
+                    startDestination = "lovers"
                 ){
                     composable("profile") {
                         Profile(
